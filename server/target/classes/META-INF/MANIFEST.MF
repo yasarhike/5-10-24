@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1715176285073
+Build-Jdk-Spec: 21
+Bundle-Activator: org.insta.server.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: server
+Bundle-SymbolicName: server
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.9
+Export-Package: org.insta.server;uses:="org.osgi.framework";version="1.0
+ .0.SNAPSHOT",org.insta.server.serverfactory;uses:="org.apache.cxf.jaxrs
+ ";version="1.0.0.SNAPSHOT"
+Import-Package: com.fasterxml.jackson.jaxrs.json;version="[2.14,3)",java
+ .io,java.lang,java.util,org.apache.cxf.endpoint;version="[3.5,4)",org.a
+ pache.cxf.jaxrs;version="[3.5,4)",org.insta.authentication.controller;v
+ ersion="[1.0,2)",org.insta.content.controller.post;version="[1.0,2)",or
+ g.insta.content.controller.post.comment;version="[1.0,2)",org.insta.con
+ tent.controller.post.like;version="[1.0,2)",org.insta.content.controlle
+ r.post.share;version="[1.0,2)",org.insta.content.controller.reel;versio
+ n="[1.0,2)",org.insta.content.controller.reel.comment;version="[1.0,2)"
+ ,org.insta.content.controller.reel.like;version="[1.0,2)",org.insta.con
+ tent.controller.reel.share;version="[1.0,2)",org.insta.content.controll
+ er.story;version="[1.0,2)",org.insta.content.controller.story.like;vers
+ ion="[1.0,2)",org.insta.content.controller.story.share;version="[1.0,2)
+ ",org.insta.server.serverfactory,org.osgi.framework;version="[1.9,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+Tool: Bnd-6.3.1.202206071316

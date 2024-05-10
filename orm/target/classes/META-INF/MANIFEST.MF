@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1715315035802
+Build-Jdk-Spec: 21
+Bundle-ManifestVersion: 2
+Bundle-Name: orm
+Bundle-SymbolicName: orm
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.9
+Export-Package: org.example;version="1.0.0.SNAPSHOT";uses:="org.example.
+ model",org.example.model;version="1.0.0.SNAPSHOT"
+Import-Package: java.io,java.lang,org.example.model;version="[1.0,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+Tool: Bnd-6.3.1.202206071316

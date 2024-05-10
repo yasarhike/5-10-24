@@ -1,0 +1,3 @@
+org\insta\server\serverfactory\ServerFactoryImpl.class
+org\insta\server\Activator.class
+org\insta\server\serverfactory\ServerFactory.class

@@ -1,0 +1,7 @@
+org\insta\wrapper\jackson\MapperObject.class
+org\insta\wrapper\hibernate\Validate.class
+org\insta\wrapper\jackson\NodeArray.class
+org\insta\wrapper\jackson\NodeObject.class
+org\insta\wrapper\exception\ExternalLibraryException.class
+org\insta\wrapper\Activator.class
+org\insta\wrapper\jsonvalidator\ObjectValidator.class

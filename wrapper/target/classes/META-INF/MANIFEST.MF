@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1715176270924
+Build-Jdk-Spec: 21
+Bundle-Activator: org.insta.wrapper.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: wrapper
+Bundle-SymbolicName: wrapper
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.9
+Export-Package: org.insta.wrapper;uses:="org.osgi.framework";version="1.
+ 0.0.SNAPSHOT",org.insta.wrapper.exception;version="1.0.0.SNAPSHOT",org.
+ insta.wrapper.hibernate;uses:="jakarta.validation";version="1.0.0.SNAPS
+ HOT",org.insta.wrapper.jackson;uses:="com.fasterxml.jackson.databind,co
+ m.fasterxml.jackson.databind.node";version="1.0.0.SNAPSHOT",org.insta.w
+ rapper.jsonvalidator;version="1.0.0.SNAPSHOT"
+Import-Package: com.fasterxml.jackson.databind;version="[2.14,3)",com.fa
+ sterxml.jackson.databind.node;version="[2.14,3)",jakarta.validation;ver
+ sion="[3.0,4)",jakarta.validation.bootstrap;version="[3.0,4)",java.io,j
+ ava.lang,java.lang.invoke,java.lang.runtime,java.util,java.util.functio
+ n,org.hibernate.validator;version="[8.0,9)",org.hibernate.validator.mes
+ sageinterpolation;version="[8.0,9)",org.insta.wrapper.exception,org.ins
+ ta.wrapper.hibernate,org.insta.wrapper.jackson,org.osgi.framework;versi
+ on="[1.9,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+Tool: Bnd-6.3.1.202206071316

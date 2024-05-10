@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1715176268696
+Build-Jdk-Spec: 21
+Bundle-Activator: org.insta.consolescanner.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: consolescanner
+Bundle-SymbolicName: consolescanner
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.9
+Export-Package: org.insta.consolescanner;uses:="org.osgi.framework";vers
+ ion="1.0.0.SNAPSHOT"
+Import-Package: java.io,java.lang,java.util,org.osgi.framework;version="
+ [1.9,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+Tool: Bnd-6.3.1.202206071316

@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1715176265445
+Build-Jdk-Spec: 21
+Bundle-Activator: org.insta.databaseconnection.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: database
+Bundle-SymbolicName: database
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.9
+Export-Package: org.insta.databaseconnection;uses:="org.osgi.framework";
+ version="1.0.0.SNAPSHOT"
+Import-Package: java.io,java.lang,java.sql,java.util,org.apache.logging.
+ log4j;version="[2.20,3)",org.osgi.framework;version="[1.9,2)",org.postg
+ resql;version="[42.6,43)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+Tool: Bnd-6.3.1.202206071316
